@@ -1,0 +1,118 @@
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.w1000 .brand_title {
+  border-bottom: 1px solid #94193f;
+  height: 42px;
+  width: 100%;
+  margin-top: 20px;
+}
+.w1000 .brand_title .brand_title_left {
+  float: left;
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+.w1000 .brand_title .brand_title_right {
+  float: right;
+  height: 34px;
+  line-height: 34px;
+  margin-top: 8px;
+  font-size: 0px;
+}
+.w1000 .brand_title .brand_title_right a {
+  padding: 0 12px;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  margin-left: -1px;
+  color: #666666;
+  font-family: "宋体";
+  vertical-align: middle;
+  font-size: 12px;
+  position: relative;
+}
+.w1000 .brand_title .brand_title_right a.active {
+  color: #c4193f;
+  border-left: 2px solid #c4193f;
+  border-right: 2px solid #c4193f;
+  border-top: 4px solid #c4193f;
+  height: 35px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.w1000 .brand_title .brand_title_right a.active span {
+  display: none;
+}
+.w1000 .brand_title .brand_title_right a span {
+  height: 14px;
+  width: 1px;
+  background-color: #ccc;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.w1000 #brand_list {
+  margin-top: 20px;
+  width: 100%;
+}
+.w1000 #brand_list li {
+  float: left;
+  width: 491px;
+  height: 225px;
+  overflow: hidden;
+  margin-right: 18px;
+  margin-bottom: 20px;
+}
+.w1000 #brand_list li:nth-child(2n) {
+  margin-right: 0;
+}
+.fixed-top {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 52px;
+  width: 100%;
+  background-color: #242424;
+  z-index: 1000;
+}
+.fixed-top ul {
+  padding: 15px 0;
+  height: 24px;
+  overflow: hidden;
+}
+.fixed-top ul li {
+  width: 100px;
+  height: 24px;
+  line-height: 24px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.fixed-top ul li .fixed_line {
+  top: 6px;
+  background-color: #5d5d5d;
+  height: 15px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 1px;
+  z-index: 1;
+}
+.fixed-top ul li .fixed_text span {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  width: 79px;
+  color: #ccc;
+  cursor: pointer;
+}
+.fixed-top ul li .fixed_text span.active,
+.fixed-top ul li .fixed_text span:hover {
+  background-color: #c4193f;
+  color: #fff;
+  border-radius: 3px;
+}

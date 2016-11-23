@@ -1,0 +1,224 @@
+header img {
+  display: block;
+  border: 0 none;
+  width: 100%;
+}
+header a {
+  color: #8C8C8C;
+}
+header a:hover {
+  color: #C41F3A;
+  text-decoration: underline;
+}
+header .top {
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  height: 36px;
+  line-height: 36px;
+  color: #8C8C8C;
+  background: #FAFAFA;
+}
+header .top .login a.a_login {
+  padding: 0 10px 0 20px;
+}
+header .top .header_right ul li {
+  float: left;
+  position: relative;
+}
+header .top .header_right ul li a {
+  padding: 0px 8px;
+}
+header .top .header_right ul li .down_load,
+header .top .header_right ul li .cus_center {
+  background: #fff;
+  display: none;
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  border: 1px solid #eee;
+}
+header .top .header_right ul li.center {
+  border: none;
+  padding-right: 0px;
+}
+header .top .header_right ul li.download:hover .down_load {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  width: 100px;
+}
+header .top .header_right ul li.center:hover .cus_center {
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+header .search {
+  margin-top: 30px;
+  margin-bottom: 19px;
+  height: 89px;
+}
+header .search .search_box .logo {
+  width: 72px;
+  margin-right: 7px;
+}
+header .search .search_box .ad {
+  margin-right: 15px;
+  padding-top: 24px;
+  width: 467px;
+}
+header .search .search_box .search_input {
+  width: 494px;
+  height: 35px;
+  margin-top: 19px;
+  border: 3px solid #94193f;
+}
+header .search .search_box .search_input input.input_search {
+  border: none;
+  width: 397px;
+  height: 19px;
+  font-size: 12px;
+  padding: 8px 0;
+  padding-left: 10px;
+}
+header .search .search_box .search_input input.input_submit {
+  cursor: pointer;
+  background-color: #94193f;
+  border: none;
+  color: #fff;
+  height: 35px;
+  width: 87px;
+  font-size: 16px;
+  line-height: 33px;
+}
+header .search .search_box .search_key {
+  margin-top: 4px;
+  width: 513px;
+  height: 25px;
+  overflow: hidden;
+  line-height: 25px;
+}
+header .search .search_box .search_key ul li {
+  float: left;
+  padding: 0px 5px;
+}
+header .search .shopCar a {
+  display: block;
+  margin-top: 19px;
+  border: 1px solid #d8d8d8;
+  width: 119px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  background-color: #f9f9f9;
+}
+header .nav {
+  border-bottom: 2px solid #B1191A;
+  height: 39px;
+  line-height: 39px;
+}
+header .nav .list li {
+  float: left;
+  padding: 0 30px;
+  height: 39px;
+  line-height: 39px;
+}
+header .nav .list li a {
+  font-size: 16px;
+  color: #303030;
+  font-weight: bold;
+}
+header .nav .list li.li_all_type {
+  width: 215px;
+  padding: 0;
+  text-align: center;
+  background-color: #B1191A;
+}
+header .nav .list li.li_all_type a {
+  color: #fff;
+  display: block;
+  letter-spacing: 3px;
+}
+header .nav .list li.home {
+  padding: 0 30px 0 60px;
+}
+.addBorder:hover {
+  border: 1px solid #94193f !important;
+}
+footer {
+  background-color: #fff;
+  margin-top: 40px;
+}
+footer .footer_up {
+  border-bottom: 1px solid #d7d7d7;
+}
+footer .footer_list {
+  margin-top: 40px;
+}
+footer .footer_list dl {
+  float: left;
+  padding: 0px 50px;
+  color: #666;
+}
+footer .footer_list dl h5 {
+  font-size: 14px;
+  height: 31px;
+}
+footer .footer_list dl dd a {
+  color: #666;
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+}
+footer .footer_list .footer_list_right li {
+  width: 100px;
+  margin-right: 20px;
+  text-align: center;
+}
+footer .footer_list .footer_list_right li .phone_title {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  height: 31px;
+}
+footer .footer_list .footer_list_right li .phone_bottom {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 5px;
+}
+footer .footer_nav {
+  border-bottom: 4px solid #a90202;
+  overflow: hidden;
+  margin-top: 45px;
+  text-align: center;
+}
+footer .footer_nav p {
+  line-height: 35px;
+}
+footer .footer_nav p a {
+  font-size: 12px;
+  font-family: "宋体";
+  color: #666666;
+  padding: 1px 10px;
+  border-right: 1px solid #dfdfdf;
+}
+footer .footer_bottom {
+  background-color: #F3F3F3;
+  padding: 10px 0;
+}
+footer .footer_bottom p {
+  text-align: center;
+  font-family: "宋体";
+  color: #7e7e7e;
+  line-height: 25px;
+}
+footer .footer_bottom p .font_arial {
+  font-family: Arial;
+  color: #666666;
+}
+footer .footer_bottom p.footer_bottom_img {
+  margin-top: 10px;
+}
+footer .footer_bottom p.footer_bottom_img a {
+  display: inline-block;
+  vertical-align: middle;
+}

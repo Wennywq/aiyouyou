@@ -1,0 +1,148 @@
+<div class="aiyou-list">
+	<div class="container">
+		<div class="allkind clear">
+			<a class="allkind-left" href="#">所有分类></a>
+			<a class="allkind-right" href="#"><i class="icon-del"></i>全部清空</a>
+		</div>
+		<div class="filter-box">
+			<div class="filter-nav">
+				<ul class="clear">
+					<li><a class="active" href="#">周边游</a></li>
+					<li><a href="#">国内游</a></li>
+					<li><a href="#">出境游</a></li>
+				</ul>
+			</div>
+			<div class="filter-item">
+				<div class="item-group clear">
+					<span class="item-title">目的地</span>
+					<a class="active" href="#">全部</a>
+					<a href="#">北京近郊</a>
+					<a href="#">周边城市</a>
+				</div>
+				<div class="item-group clear">
+					<span class="item-title">活动类型</span>
+					<a class="active" href="#">全部</a>
+					<a href="#">休闲</a>
+					<a href="#">骑行</a>
+					<a href="#">露营</a>
+					<a href="#">登山</a>
+					<a href="#">自驾</a>
+					<a href="#">骑马</a>
+					<a href="#">徒步</a>
+					<a href="#">摄影</a>
+				</div>
+				<div class="item-group clear">
+					<span class="item-title">行程天数</span>
+					<a class="active" href="#">全部</a>
+					<a href="#">1天</a>
+					<a href="#">2天</a>
+				</div>
+				<div class="item-group otherkind clear">
+					<span class="item-title">主题游</span>
+					<a class="active" href="#">全部</a>
+					<a href="#">亲子体验</a>
+					<a href="#">摄影旅途</a>
+					<a href="#">草原之旅</a>
+					<a href="#">大漠孤城</a>
+					<a href="#">徒步之旅</a>
+					<a href="#">户外探险</a>
+				</div>
+				<div class="item-group otherkind clear">
+					<span class="item-title">出游时间</span>
+					<a class="active" href="#">全部</a>
+					<a href="#">8月</a>
+					<a href="#">9月</a>
+					<a href="#">10月</a>
+					<a href="#">11月</a>
+					<a href="#">12月</a>
+				</div>
+				<div class="showallbtn show1">
+					<a>
+						<i class="up"></i>
+						<span>更多筛选项（出游时间/行程天数）</span>
+					</a>
+				</div>
+				<div class="showallbtn show2" style="display: none;">
+					<a>
+						<i class="down"></i>
+						<span>收起</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-main clear">
+			<div class="list-left">
+				<div class="filter-sort">
+					<a href="#">小野推荐</a>
+					<a href="#">价格由低到高</a>
+					<a href="#">价格由高到低</a>
+				</div>
+				<div class="list-product">
+					##for(var i=0;i<productArr.length;i++ ){##
+						<div class="product-group clear">
+							<a href="#" class="product-img">
+								<i>滑雪</i>
+								<img src="{{productArr[i].img}}" alt="">
+							</a>
+							<div class="product-info">
+								<h2 class="product-title">
+									{{productArr[i].title}}
+								</h2>
+								<div class="base-info clear">
+									<div class="base-left">
+										<p class="base-con"><i class="icon"></i>1.三天时间，让孩子掌握滑雪技巧自由驰骋初中级雪道！</p>
+										<p class="base-con"><i class="icon"></i>2.全封闭的滑雪训练，让孩子在锻炼身体的同时，锻炼意志，快乐成长！</p>
+										<p class="base-con"><i class="icon"></i>3.爱游一站式服务，全程后勤保障，保证孩子安全！</p>
+										<div class="base-data">
+											<p class="start-box">
+												<span><i class="icon icon-place"></i>北京,/出发</span>
+												<span><i class="icon icon-by"></i>自驾</span>
+												<span class='strength'>
+													强度：
+													<i class="on"></i>
+													<i class="on"></i>
+													<i class="on"></i>
+													<i></i>
+													<i></i>
+												</span>
+											</p>
+											<p class="start-time">
+												<i class="icon-calendar"></i>
+												12/24，01/15，01/22，02/05
+											</p>
+										</div>
+									</div>
+									<div class="base-right">
+										<div class='price-box clear'>
+											<p class="price">
+												<em>{{productArr[i].price }}</em>
+												<i>起</i>
+											</p>
+											<span>5日</span>
+										</div>
+										<a class="enrollbtn" href="#">马上报名</a>
+										<div class="total clear">
+											<p>
+												<i class="heart"></i>
+												<em>0</em>
+											</p>
+											<p>
+												<i class="eye"></i>
+												<em>27</em>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					##}##	
+				</div>
+			</div>
+			<div class="list-right">
+				<a href="#"><img src="static/images/list/05.jpg" alt=""></a>
+				<a href="#"><img src="static/images/list/06.jpg" alt=""></a>
+			</div>
+			
+		</div>
+	</div>		
+</div>

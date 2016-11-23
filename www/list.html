@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>爱游网-列表页</title>
+	<link rel="stylesheet" href="dist/global.min.css">
+	<link rel="stylesheet" href="static/less/list.css">
+</head>
+<body>
+	<div id="header" class="header"></div>
+	<div id="listbox" class="listbox"></div>
+	<div id="footer" class="footer"></div>
+
+	<script src="dist/global.min.js"></script>
+	<script>
+		seajs.config({
+			base: './'	
+		});
+		seajs.use(['static/js/list.js'],function(a){
+			a.initPage();
+		});
+	</script>
+</body>
+</html>

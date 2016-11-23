@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet"  href="css/global.css">
+  <link rel="stylesheet"  href="css/headerAndFooter.css">
+  <link rel="stylesheet"  href="css/index.css">
+</head>
+<body>
+    <header class="f12" id="header">
+    </header><!-- /header -->
+
+<!-- banner -->
+    <div class="index_banner">
+      <div class="w1200">
+          <ul id='index_banner_menu' class="f13">
+            
+          </ul>
+      </div>   
+    </div>
+
+<!-- 页面的中间内容 -->
+    <div class="index_main">
+      <div class="w1200">
+        <div class="index_main_cloths">
+          <p class="cloths_title">
+            <a href="" class="active">精选服饰<i></i></a>
+            <a href="">限时抢购<i></i></a>
+          </p>
+          <!-- 精选服饰 -->
+          <div id="cloths_content">
+          
+          </div>
+          <!-- 限时抢购 以下部分-->
+          <div id="limited_buy">
+             
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 页面底部 -->
+  <footer id="footer">
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src='bower_components/seajs/dist/sea.js'></script>
+  <script>
+  	  seajs.config({
+  	  	base:'./'
+  	  });
+  	  seajs.use(['js/index','js/index2.js'],function(task,task2){
+        task.initFn();
+        task2.https();
+      })
+  </script>
+<!--   <script src='app.min.js'></script> -->
+</body>
+</html>

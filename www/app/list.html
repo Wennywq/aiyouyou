@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/headerAndFooter.css">
+	<link rel="stylesheet" href="css/list.css">
+
+</head>
+<body>
+	<header class="f12" id="header">
+  </header><!-- /header -->
+
+    <!-- 页面中间部分 -->
+    <!-- banner部分 -->
+  <div class="list_banner">
+    <div class="w1200">
+        <ul id='list_banner_menu' class="f13">
+          
+        </ul>
+    </div>   
+  </div>
+    
+  <!-- 中间的商品展示 -->
+  <div class="w1200">
+    <div class="list_main">
+      <div class="list_title">
+        精品推荐
+      </div>
+      <ul id="list_main_content" class="clearfix">
+      
+      </ul>
+    </div>
+  	
+  </div>
+
+
+    <!-- 页面底部 -->
+  <footer id="footer">
+  </footer>
+    
+
+  <script src="bower_components/seajs/dist/sea.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script>
+  	seajs.config({
+  		base:'./'
+  	});
+  	seajs.use('js/list',function(list){
+      list.initFn();
+  	});
+  </script>
+</body>
+</html>

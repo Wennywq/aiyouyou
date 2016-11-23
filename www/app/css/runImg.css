@@ -1,0 +1,43 @@
+.runImg {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.runImg .runImg_box {
+  position: absolute;
+}
+.runImg .runImg_box:after {
+  content: '';
+  height: 0px;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.runImg .runImg_box li {
+  float: left;
+}
+.runImg .runImg_box li img {
+  display: block;
+}
+.runImg .flag {
+  position: absolute;
+  width: 60%;
+  height: 1%;
+  margin-left: 20%;
+  bottom: 5%;
+}
+.runImg .flag:after {
+  content: '';
+  height: 0px;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.runImg .flag li {
+  height: 100%;
+  float: left;
+  background: #666;
+}
+.runImg .flag li.active {
+  background: #000;
+}

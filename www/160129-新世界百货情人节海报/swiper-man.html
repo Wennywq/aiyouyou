@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/swiper-ani.css"/>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+//预加载
+ function loading(){
+ 
+  $(".loading-box").hide();
+}
+	function bf(){
+ var audio = document.getElementById('music1'); 
+ if(audio!==null){             
+  if(audio.paused)                     {                 
+      audio.play();
+  }else{
+   audio.pause();
+  }
+ } 
+}
+
+
+</script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper-twice.js"></script>
+</head>
+<body onload="loading()">
+<audio src="images/man.mp3" controls="controls" loop="loop" preload id="music1" autoplay="autoplay" hidden></audio>
+<div class="swiper-container">
+	<img src="images/music-icon.png" class="music-icon run1-rotate" onclick="bf()"/>
+	
+    <div class="swiper-wrapper">
+    <!--第1屏-->
+     <section class="swiper-slide swiper-slide1">
+     	<img src="images/man1-bg1.jpg" class="man1-bg1 ani" data-slide-in="at 0 from bgToLeft use swing during 6000" />
+
+     	<img src="images/man1-img2.png" class="man1-title1 ani" data-slide-in="at 500 from fadeInRight use swing during 1600"  />
+     	<img src="images/man1-img3.png" class="man1-title1 ani" data-slide-in="at 2100 from fadeInDown use swing during 1000"  />
+     	<img src="images/man1-img4.png" class="man1-title1 ani" data-slide-in="at 3500 from fadeInLeft use swing during 1600"  />
+     	<img src="images/man1-img5.png" class="man1-title1 ani" data-slide-in="at 5100 from vanishin use swing during 800"  />
+     	
+     	<img src="images/man1-img1.png" class="man1-finger ani" data-slide-in='at 200 from fadeInLeft use swing during 600'/>
+     	<div class="ani bottom-box" data-slide-in="at 5900 from bounceInUp use swing during 800" >
+     	<img src="images/man1-btn1.png" class="man-arrow tonext">      		
+     	</div>
+
+     </section>
+     <!--第2屏-->
+     <section class="swiper-slide swiper-slide2">
+     	<img src="images/man1-2-bg1.jpg" class="man1-2-bg1 ani" data-slide-in="at 0 from bgToRight use swing during 6000" />
+
+     	<img src="images/man1-2-img2.png" class="man1-2-title1 ani" data-slide-in="at 500 from fadeInLeft use swing during 1600"  />
+     	<img src="images/man1-2-img3.png" class="man1-2-title1 ani" data-slide-in="at 2100 from fadeInUp use swing during 1000"  />
+     	<img src="images/man1-2-img4.png" class="man1-2-title1 ani" data-slide-in="at 3500 from fadeInLeft use swing during 1600"  />
+     	<img src="images/man1-2-img5.png" class="man1-2-title1 ani" data-slide-in="at 5100 from bounceInDown use swing during 800"  />
+     	
+     	<img src="images/man1-2-img1.png" class="man1-2-finger ani" data-slide-in='at 200 from fadeInRight use swing during 600'/>
+     	<div class="ani bottom-box" data-slide-in="at 5900 from vanishin use swing during 800" >
+     	<img src="images/man1-2-btn1.png" class="man-arrow tonext">      		
+     	</div>
+
+     </section> 
+     <!--第3屏-->
+     <section class="swiper-slide swiper-slide3">
+     	<img src="images/man1-3-bg1.jpg" class="man1-bg1 ani" data-slide-in="at 0 from bgToLeft use swing during 6000" />
+     	<div class="ani bottom-box" >
+     	<img src="images/man1-3-img2.png" class="ani man1-3-titles"  data-slide-in="at 500 from fadeIn use swing during 600"  data-slide-out="at 1200 to fadeOut use swing during 300 force" />
+     	<img src="images/man1-3-img3.png" class="ani man1-3-title"  data-slide-in="at 1200 from bounceIn use swing during 800" data-slide-out="at 800 to vanishout use swing during 300 force"   />
+     	<img src="images/man1-3-img4.png" class="ani man1-3-title"  data-slide-in="at 3600 from fadeIn use swing during 600" data-slide-out="at 800 to vanishout use swing during 300 force"   />
+     	<img src="images/man1-3-img4.png" class="ani man1-3-title"  data-slide-in="at 3600 from fadeIn use swing during 600"  />
+     	<img src="images/man1-3-img5.png" class="ani man1-3-title"  data-slide-in="at 4600 from fadeInDown use swing during 600"   />
+     	<img src="images/man1-3-img6.png" class="ani man1-3-title"  data-slide-in="at 5600 from vanishin use swing during 600"  />
+     	<img src="images/man1-3-btn1.png" class="man-arrow3 ani"  data-slide-in="at 6800 from bounceInUp use swing during 800"  onclick="window.location.href='shout.html'">      		
+     	</div>
+     </section>
+        
+    </div>
+</div>
+<script src="js/preloadjs.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			function setupManifest() {
+			    manifest = [
+			    {src:"images/music-icon.png"},
+			    {src:"images/man1-bg1.jpg"},
+			    {src:"images/man1-img1.png"},
+			    {src:"images/man1-img2.png"},
+			    {src:"images/man1-img3.png"},
+			    {src:"images/man1-img4.png"},
+			    {src:"images/man1-img5.png"},
+			    {src:"images/man1-btn1.png"},
+			    
+			     {src:"images/man1-2-bg1.jpg"},
+			    {src:"images/man1-2-img1.png"},
+			    {src:"images/man1-2-img2.png"},
+			    {src:"images/man1-2-img3.png"},
+			    {src:"images/man1-2-img4.png"},
+			    {src:"images/man1-2-img5.png"},
+			    {src:"images/man1-2-btn1.png"},
+			  
+
+			    {src:"images/man1-3-bg1.jpg"},
+			    {src:"images/man1-3-img2.png"},
+			    {src:"images/man1-3-img3.png"},
+			    {src:"images/man1-3-img4.png"},
+			    {src:"images/man1-3-img5.png"},
+			    {src:"images/man1-3-img6.png"},
+			    {src:"images/man1-3-btn1.png"}
+			    
+			    ];
+			   
+			}
+			
+			function startPreload() {
+			    preload = new createjs.LoadQueue(false);
+			    preload.installPlugin(createjs.Sound);          
+			    preload.on("fileload", handleFileLoad);
+			    preload.on("progress", handleFileProgress);
+			    preload.on("complete", loadComplete);
+			    preload.on("error", loadError);
+			    preload.loadManifest(manifest);
+			
+			}
+			
+			function handleFileLoad(event) {
+			   /* console.log("A file has loaded of type: " + event.item.type);*/
+			    if(event.item.id == "logo"){
+			        console.log("Logo is loaded");
+			        //create bitmap here
+			    }
+			}
+			
+			
+			function loadError(evt) {
+			    console.log("Error!",evt.text);
+			}
+			
+			function handleFileProgress(event) {
+			   var aa = (preload.progress*100|0) + "%";
+			    console.log(aa);
+			}
+			
+			function loadComplete(event) {
+			   $(".loading-box").hide();
+			}
+			setupManifest();
+			startPreload();
+		</script>
+<script> 		  
+  var mySwiper = new Swiper ('.swiper-container', {
+   direction : 'vertical',
+   pagination: '.swiper-pagination',
+   paginationClickable: true,
+
+   mousewheelControl : true,
+   onInit: function(swiper){ 
+    swiperAnimateCache(swiper); 
+    swiperAnimate(swiper); 
+  }, 
+  onSlideChangeEnd: function(swiper){ 
+    swiperAnimate(swiper); 
+  } ,
+	watchSlidesProgress: true
+	   }) ;  
+	   $(window).load(function(){
+		//跳转到下一页
+				$(".tonext").click(function(event) {
+					mySwiper.slideNext();
+				});
+	//音乐符号切换
+	$(".music-icon").click(function(){
+		$(this).toggleClass("run1-rotate");
+	})
+	   })
+	   
+  </script>
+</body>
+</html>

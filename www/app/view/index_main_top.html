@@ -1,0 +1,40 @@
+<ul class="clearfix">
+	##if(flag1 == 0){##
+	    ##for(var i = 0;i < obj.length; i++){##
+	    <li class="addBorder">
+		    <div class="imgbox">
+		    	<p class="tag">精选服饰</p>
+				<a href="item.html"><img src="{{obj[i].imgsrc}}" alt=""></a>
+		    </div>
+			<div class="cloths_words">
+				<p class="intro">{{obj[i].intro}}</p>
+				<p class="cloths_type">{{obj[i].cloths_type}}</p>
+				<p class="cloths_price">
+					<span class="f14 fb">￥</span><span class="current_price fb f20">{{obj[i].current_price}}</span>
+					<del class="f12">￥{{obj[i].past_price}}</del>
+					<span class="discount">{{obj[i].discount}}折</span>
+				</p>
+			</div>
+		</li>
+	    ##}##
+	##}else if(flag1 == 1){##
+	##for(var i = 0;i < obj.length; i++){##
+		 <li class="addBorder">
+		    <div class="imgbox">
+		    	<p class="tag" style="background-color:#A6A6A6;">限时抢购</p>
+				<a href="item.html"><img src="{{obj[i].imgsrc}}" alt=""></a>
+		    </div>
+			<div class="cloths_words">
+				<p class="intro">{{obj[i].intro}}</p>
+				<p class="cloths_type">{{obj[i].cloths_type}}</p>
+				<p class="cloths_price">
+					<span class="f14 fb">￥</span><span class="current_price fb f20">{{obj[i].current_price}}</span>
+					<del class="f12">￥{{obj[i].past_price}}</del>
+					<span class="discount">{{obj[i].discount}}折</span>
+				</p>
+			</div>
+		</li>
+		 ##}##
+	##}##
+</ul>
+

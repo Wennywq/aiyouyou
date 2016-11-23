@@ -1,0 +1,18 @@
+##for(var i = 0;i < obj.length; i++){##
+	<li>
+		<a href="">
+			<p class="imgBox">
+				<img src="{{obj[i].imgsrc}}" alt="">
+			</p>
+			<div class="img_intro clearfix">
+				<p class="img_title">{{obj[i].img_title}}</p>
+				<div class="p_p_left">
+	                <p class="price2 f12"><del>￥{{obj[i].passprice}}</del>&nbsp;</p>
+	                <p class="price1 f16">快乐价<span>￥</span><span>{{obj[i].currentprice}}</span></p>
+	            </div>
+	            <div class="p_p_right">
+	            </div>
+			</div>
+		</a>
+	</li>
+##}##

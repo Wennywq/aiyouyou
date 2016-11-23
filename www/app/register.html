@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="w1000 clearfix login">
+        <div class="login_logo">
+            <a href="index.html">
+                <img src="image/logo.jpg" alt="">
+            </a>
+        </div>
+        <div class="login_logo_right">
+            <img src="image/top_center.jpg" alt="">
+        </div>
+    </div>
+    <div class="w980 clearfix">
+        <div class="mian_left">
+            <img src="image/register.jpg" alt="">
+        </div>
+        <div class="login_main">
+            <div class="login_title">
+                <h2>用户注册</h2>
+                <div class="login_title_right">
+                    <span>已有账号</span><a href="login.html">快速登录</a>
+                </div>
+            </div>
+            <div class="login_form">
+                <form action="login_submit" method="post">
+                    <div class="item item1">
+                        <input type="text" placeholder="请输入手机号码" name="user_name" class="itxt" id="user_name" tabindex="1" value="">
+                        <div class="err_box">
+                            <div class="err_msg err_msg1" id="error_user_name"></div>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <input type="text" placeholder="验证码" autocomplete="off" maxlength="6" tabindex="3" class="itxt itxt_yzm onfocustxt" name="mobile_code" id="mobile_code">
+                        <a href="javascript:void(0);" id="send_auth_code" class="ncm-btn" tabindex="2">
+                            <span id="sending" style="display:none">正在</span>
+                            <span class="send_success_tips" style="display: none;">
+                                    <strong id="show_times" class="red mr5"></strong>秒后再次获取</span>
+                            <div id="hide_times">获取短信验证码</div>
+                        </a>
+                        <div class="err_box">
+                            <div class="err_msg err_msg1" style="display: none;" id="error_mobile_code"><i class="icon_err"></i>您输入的短信验证码有误</div>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <input class="itxt" type="password" placeholder="请输入密码" autocomplete="off" tabindex="2" name="password" id="password">
+                        <div class="err_box">
+                            <div class="err_msg err_msg1" style="display:none;" id="error_password"></div>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <input class="itxt" type="password" placeholder="请再次输入密码" autocomplete="off" tabindex="2" name="repeatpwd" id="repeatpwd">
+                        <div class="err_box">
+                            <div class="err_msg err_msg1" style="display:none;" id="error_repeatpwd"></div>
+                        </div>
+                    </div>
+                    <div class="item item3 clearfix">
+                        <input type="text" placeholder="验证码" autocomplete="off" maxlength="4" size="10" name="captcha" id="captcha" class="itxt itxt_yzm onfocustxt" tabindex="3">
+                        <img src="http://www.happigo.com/shop/index.php?act=seccode&op=makecode&nchash=b1d485b5" name="codeimage" border="0" id="codeimage" class="verify-code" style="width:78px; height:38px;">
+                        <a href="javascript:void(0)" class="changeCode" onclick="javascript:document.getElementById('codeimage').src='http://www.happigo.com/shop/index.php?act=seccode&op=makecode&nchash=b1d485b5&t=' + Math.random();">换一张</a>
+                        <div class="err_box">
+                            <div class="err_msg" style="display: none;" id="error_captcha"></div>
+                        </div>
+                    </div>
+                    <div class="item item6">
+                        <div class="login-btn">
+                            <a tabindex="6" id="loginsubmit" class="btn-img btn-entry" href="javascript:;">立即注册</a>
+                        </div>
+                    </div>
+                    <div class="item item5">
+                        <div class="safe ClearFix">
+                            <span>
+                                <input type="checkbox" tabindex="4" class="jdcheckbox" name="autoLogin" id="autoLogin" checked="checked">
+                                <label for="autoLogin">注册即表示同意快乐购《用户服务协议》条款</label>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

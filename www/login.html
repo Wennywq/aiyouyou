@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>爱游网-登录</title>
+	<link rel="stylesheet" href="static/less/global.css">
+	<link rel="stylesheet" href="static/less/login.css">
+</head>
+<body>
+	<div id="login" class="login"></div>
+
+	<script src="dist/global.min.js"></script>
+	<script>
+		seajs.config({
+			base: './'	
+		});
+		seajs.use(['static/js/login.js'],function(a){
+			a.initPage();
+		});
+	</script>
+</body>
+</html>

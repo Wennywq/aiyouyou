@@ -1,0 +1,27 @@
+choose.html  选择男女
+gift.html  礼物
+index.html  首页
+shout.html  喊
+shout-man.html  喊（男生版）
+shout-woman.html  喊（女生版）
+swiper-man.html  男生海报
+swiper-woman.html  女生海报
+
+
+
+
+css:
+海报页面css animate.min.css  
+            swiper.min.css
+	    swiper-ani.css
+
+
+其他页面css  mobile.css
+
+
+
+
+
+
+
+

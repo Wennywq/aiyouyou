@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>爱游网-详情页</title>
+	<link rel="stylesheet" href="dist/global.min.css">
+	<link rel="stylesheet" href="static/less/detail.css">
+</head>
+<body>
+	<div id="header" class="header"></div>
+	<div id="detailbox" class="detailbox"></div>
+	<div id="footer" class="footer"></div>
+	<div id="quick-nav" class="quick-nav"></div>
+
+	<script src="dist/global.min.js"></script>
+	<script>
+		seajs.config({
+			base: './'	
+		});
+		seajs.use(['static/js/detail.js'],function(a){
+			a.initPage();
+		});
+	</script>
+</body>
+</html>

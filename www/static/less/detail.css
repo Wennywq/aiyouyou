@@ -1,0 +1,150 @@
+.detailbox {
+  background: #f9f9f9;
+}
+.detailbox .aiyou-detail .detail-top {
+  font-size: 14px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+}
+.detailbox .aiyou-detail .article .art-left {
+  float: left;
+  width: 805px;
+  background: #fff;
+  padding: 0 35px;
+}
+.detailbox .aiyou-detail .article .art-left h1 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  height: 85px;
+  line-height: 85px;
+  margin-top: 40px;
+}
+.detailbox .aiyou-detail .article .art-left .base-info {
+  border-bottom: 1px solid #a2a2a2;
+  line-height: 24px;
+  padding: 0 30px 10px 30px;
+}
+.detailbox .aiyou-detail .article .art-left .base-info span {
+  font-size: 12px;
+  color: #a2a2a2;
+}
+.detailbox .aiyou-detail .article .art-left .base-info span.date {
+  float: left;
+}
+.detailbox .aiyou-detail .article .art-left .base-info span.see {
+  float: right;
+}
+.detailbox .aiyou-detail .article .art-left .art-group {
+  padding: 0 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.detailbox .aiyou-detail .article .art-left .art-group img {
+  display: inline-block;
+}
+.detailbox .aiyou-detail .article .art-left .art-group p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.detailbox .aiyou-detail .article .art-right {
+  float: right;
+  width: 280px;
+}
+.detailbox .aiyou-detail .article .art-right .user-info {
+  background: #fff;
+  margin-bottom: 20px;
+}
+.detailbox .aiyou-detail .article .art-right .user-info .user-pic {
+  width: 80px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.detailbox .aiyou-detail .article .art-right .user-info .user-pic p {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+}
+.detailbox .aiyou-detail .article .art-right .user-info .user-intro {
+  width: 175px;
+  margin: 30px auto;
+  line-height: 25px;
+  font-size: 14px;
+}
+.detailbox .aiyou-detail .article .art-right .user-info .hobby {
+  line-height: 30px;
+  text-align: center;
+}
+.detailbox .aiyou-detail .article .art-right .user-info .hobby .hobby-title {
+  font-size: 12px;
+}
+.detailbox .aiyou-detail .article .art-right .user-info .hobby span {
+  display: inline-block;
+  width: 38px;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #e2e2e2;
+  margin-right: 2px;
+  font-size: 12px;
+  margin-bottom: 45px;
+}
+.detailbox .aiyou-detail .article .art-right .column {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.detailbox .aiyou-detail .article .art-right .column .column-title {
+  border-bottom: 1px solid #e2e2e2;
+  height: 30px;
+  line-height: 30px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.detailbox .aiyou-detail .article .art-right .column .column-title span {
+  color: #3cb43c;
+}
+.detailbox .aiyou-detail .article .art-right .column .column-con {
+  padding: 20px 0;
+  line-height: 30px;
+  font-size: 14px;
+}
+.detailbox .aiyou-detail .article .art-right .column .column-con a {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.detailbox .aiyou-detail .article .art-right .share {
+  background: #fff;
+  padding: 20px;
+}
+.detailbox .aiyou-detail .article .art-right .share .share-title {
+  border-bottom: 1px solid #e2e2e2;
+  height: 30px;
+  line-height: 30px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.detailbox .aiyou-detail .article .art-right .share .share-icon {
+  padding: 30px 15px 40px;
+}
+.detailbox .aiyou-detail .article .art-right .share .share-icon a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../images/detail/iconlist.png) no-repeat;
+}
+.detailbox .aiyou-detail .article .art-right .share .share-icon a.qq {
+  background-position: -297px -109px;
+}
+.detailbox .aiyou-detail .article .art-right .share .share-icon a.weixin {
+  background-position: -295px -175px;
+}
+.detailbox .aiyou-detail .article .art-right .share .share-icon a.xinlang {
+  background-position: -297px -240px;
+}
+.detailbox .aiyou-detail .article .art-right .share .share-icon a:hover {
+  opacity: 0.8;
+}

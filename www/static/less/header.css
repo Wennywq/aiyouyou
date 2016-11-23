@@ -1,0 +1,123 @@
+.header {
+  padding-top: 20px;
+}
+.header .logo {
+  float: left;
+  padding-right: 40px;
+}
+.header .start-city {
+  float: left;
+  position: relative;
+}
+.header .start-city p {
+  height: 32px;
+  line-height: 32px;
+  padding-left: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 150px;
+}
+.header .start-city p.hit {
+  font-size: 12px;
+  background: url(../static/images/top-icon.png) no-repeat 15px -13px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  padding-right: 60px;
+  margin-right: 56px;
+}
+.header .start-city p.hit span {
+  font-size: 16px;
+  color: #3cb43c;
+  margin-right: 6px;
+}
+.header .start-city p.hit i {
+  display: block;
+  width: 40px;
+  height: 16px;
+  background: url(../static/images/top-icon.png) no-repeat;
+  background-position: 16px -40px;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  border-left: 1px solid #e0e0e0;
+  padding-left: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.header .start-city .city-sel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 32px;
+  border: 1px solid #e0e0e0;
+  display: none;
+}
+.header .start-city .city-sel p {
+  font-size: 14px;
+  background: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.header .search {
+  float: left;
+  height: 42px;
+  width: 415px;
+  border: 1px solid #dcdcdc;
+  position: relative;
+}
+.header .search input {
+  width: 372px;
+  padding: 0 10px;
+  line-height: 42px;
+}
+.header .search a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #dcdcdc;
+}
+.header .search a i {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../static/images/top-icon.png) no-repeat 0 -74px;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+.header .header-right {
+  float: right;
+  padding-top: 10px;
+}
+.header .header-right a {
+  color: #333;
+  font-size: 14px;
+}
+.header .header-right a:first-child {
+  border-right: 1px solid #333;
+  padding-right: 20px;
+}
+.header .header-right a:last-child {
+  padding-left: 20px;
+}
+.header .nav {
+  margin-top: 16px;
+  background: #3cb43c;
+  line-height: 42px;
+}
+.header .nav a {
+  padding: 0 18px;
+  color: #fff;
+  display: inline-block;
+  margin-right: -4px;
+}
+.header .nav a:first-child {
+  padding: 0 35px;
+}
+.header .nav a.active,
+.header .nav a:hover {
+  background: #319630;
+}

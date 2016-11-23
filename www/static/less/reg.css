@@ -1,0 +1,137 @@
+body {
+  background: #48B36F;
+}
+body .aiyou-reg {
+  width: 900px;
+  margin: 0 auto;
+}
+body .aiyou-reg header {
+  padding: 30px 0 20px;
+}
+body .aiyou-reg header a {
+  display: block;
+}
+body .aiyou-reg .reg-main {
+  background: #fff;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 12px #3A8F5A;
+          box-shadow: 0 0 12px #3A8F5A;
+  font-size: 12px;
+  padding-bottom: 40px;
+}
+body .aiyou-reg .reg-main .reg-title {
+  padding: 40px 0 15px 50px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #333;
+}
+body .aiyou-reg .reg-main .reg-title p {
+  color: #878787;
+  float: left;
+  font-size: 12px;
+}
+body .aiyou-reg .reg-main .reg-title p.title {
+  color: #46B26D;
+  font-size: 20px;
+  margin-right: 100px;
+}
+body .aiyou-reg .reg-main .reg-title p a {
+  color: #FF8A00;
+  text-decoration: underline;
+}
+body .aiyou-reg .reg-main .reg-intro {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-group {
+  margin: 10px 0;
+  color: #888;
+  line-height: 42px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-group .th {
+  float: left;
+  width: 100px;
+  text-align: right;
+  font-size: 16px;
+  color: #858585;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-group input {
+  float: left;
+  width: 260px;
+  height: 20px;
+  padding: 9px;
+  border: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 16px;
+  outline: none;
+  -webkit-box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+          box-shadow: 0 0 5px rgba(204, 204, 204, 0.8);
+}
+body .aiyou-reg .reg-main .reg-intro .reg-group .warn {
+  float: left;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+  color: #999;
+  font-size: 12px;
+  margin-left: 12px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom {
+  padding-left: 100px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .dealcheckbox {
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .dealcheckbox .checkbox {
+  display: inline-block;
+  background: transparent url(../images/checkbox.png) no-repeat center top;
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  margin-top: -3px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .dealcheckbox .checkbox.on {
+  background-position: center bottom;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .dealcheckbox span {
+  color: #888;
+  margin-left: 5px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .dealcheckbox span a {
+  color: #47B26E;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .reg-btn {
+  height: 37px;
+  line-height: 37px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #E87400;
+  background-color: #FF9326;
+  margin: 0 0;
+  padding: 0 15px;
+  outline: none;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .reg-btn:hover {
+  border: 1px solid #CB6500;
+  background-color: #FF730E;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .loginlink {
+  color: #AAA;
+  margin-top: 15px;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .loginlink a {
+  color: #F80;
+}
+body .aiyou-reg .reg-main .reg-intro .reg-bottom .loginlink a:hover {
+  text-decoration: underline;
+}

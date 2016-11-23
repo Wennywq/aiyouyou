@@ -1,0 +1,28 @@
+{
+	"product":[
+		{
+			"img":"static/images/list/01.png",
+			"type":"滑雪",
+			"title":"【爱游滑雪】2016-2017雪季快乐成",
+			"price":"4280"
+		},
+		{
+			"img":"static/images/list/02.png",
+			"type":"滑雪",
+			"title":"【爱游滑雪】2016-2017雪季冬奥小",
+			"price":"5180"
+		},
+		{
+			"img":"static/images/list/03.png",
+			"type":"滑雪",
+			"title":"【热血燃冬】爱游滑雪首战云顶,双11火热",
+			"price":"299"
+		},
+		{
+			"img":"static/images/list/04.png",
+			"type":"自驾",
+			"title":"【越野培训】库布齐沙漠穿沙越野培训深度体",
+			"price":"3499"
+		}
+	]
+}

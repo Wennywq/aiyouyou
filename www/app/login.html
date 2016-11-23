@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="w1000 clearfix login">
+        <div class="login_logo">
+            <a href="index.html">
+                <img src="image/logo.jpg" alt="">
+            </a>
+        </div>
+        <div class="login_logo_right">
+            <img src="image/top_center.jpg" alt="">
+        </div>
+    </div>
+    <div class="w980 clearfix">
+        <div class="mian_left">
+            <img src="image/logo_img.jpg" alt="">
+        </div>
+        <div class="login_main">
+            <div class="login_title">
+                <h2>登录快乐购</h2>
+                <div class="login_title_right">
+                    <span>还没有快乐购账号</span><a href="register.html">快速注册</a>
+                </div>
+            </div>
+            <div class="login_form">
+                <form action="login_submit" method="post">
+                    <div class="item item1">
+                        <input type="text" placeholder="已验证手机/邮箱/用户名" name="user_name" class="itxt" id="user_name" tabindex="1" value="">
+                        <div class="err_box">
+                            <div class="err_msg err_msg1" id="error_user_name"></div>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <input class="itxt" type="password" placeholder="请输入密码" autocomplete="off" tabindex="2" name="password" id="password">
+                        <div class="err_box">
+                            <div class="err_msg err_msg1" style="display:none;" id="error_password"></div>
+                        </div>
+                    </div>
+                    <div class="item item3 clearfix">
+                        <input type="text" placeholder="验证码" autocomplete="off" maxlength="4" size="10" name="captcha" id="captcha" class="itxt itxt_yzm onfocustxt" tabindex="3">
+                        <img src="http://www.happigo.com/shop/index.php?act=seccode&op=makecode&nchash=b1d485b5" name="codeimage" border="0" id="codeimage" class="verify-code" style="width:78px; height:38px;">
+                        <a href="javascript:void(0)" class="changeCode" onclick="javascript:document.getElementById('codeimage').src='http://www.happigo.com/shop/index.php?act=seccode&op=makecode&nchash=b1d485b5&t=' + Math.random();">换一张</a>
+                        <div class="err_box">
+                            <div class="err_msg" style="display: none;" id="error_captcha"></div>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <div class="safe ClearFix">
+                            <span>
+                                <input type="checkbox" tabindex="4" class="jdcheckbox" name="autoLogin" id="autoLogin" checked="checked">
+                                <label for="autoLogin">记住用户名</label>
+                            </span>
+                            <span class="forget-pw-safe">
+	                            <a target="_blank" class="" href="">
+	                              忘记密码？</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item item5">
+                        <div class="login-btn">
+                            <a tabindex="6" id="loginsubmit" class="btn-img btn-entry" href="javascript:;">立即登录</a>
+                        </div>
+                    </div>
+                    <div class="loginWay">
+                        <h5>您可以使用以下账号登录</h5>
+                        <ul>
+                            <li>
+                                <a class="qqWay" href="http://www.happigo.com/shop/api.php?act=toqq" title="QQ">QQ</a>
+                            </li>
+                            <li>
+                                <a class="blogWay" href="http://www.happigo.com/shop/api.php?act=tosina" title="新浪微博">新浪微博</a>
+                            </li>
+                            <li>
+                                <a class="taobaoWay" href="http://www.happigo.com/shop/api.php?act=zfb" title="支付宝">支付宝</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

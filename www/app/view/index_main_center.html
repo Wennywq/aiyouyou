@@ -1,0 +1,61 @@
+<!-- 限时抢购 -->
+<div class="limited_buy_title">
+	<div class="title_content">
+		<p class="up">限时抢购</p>
+		<p class="down">天天特价 早10点强势上新</p>
+	</div>
+</div>
+<ul class="clearfix limited_buy_main">
+    ##for( var i = 0; i < obj1.length; i++){##
+	    <li class="addBorder">
+			<div>还剩 <span>{{obj1[i].time}}</span></div>
+			<a href=""><img src="{{obj1[i].imgsrc}}" alt=""></a>
+		</li>
+    ##}##
+</ul>
+
+<!-- 品类精选 -->
+<div class="limited_buy_title">
+	<div class="title_content">
+		<p class="up">品类精选</p>
+		<p class="down">品类齐全 轻松购物</p>
+	</div>
+</div>
+<ul class="clearfix brand_choice">
+    ##for( var j = 0; j < obj2.length; j++){##
+	<li>
+		<img src="{{obj2[j].imgsrc}}" alt="">
+		<a href="" class="hover_layer show">
+			<div class="layer_main">
+				<p><span>{{obj2[j].price}}</span>元起</p>
+				<div>立即抢购</div>
+			</div>
+		</a>
+	</li>
+	##}##
+</ul>
+
+ <!-- 今日发现 -->
+<div class="limited_buy_title">
+	<div class="title_content">
+		<p class="up">今日发现</p>
+		<p class="down">精致好物 更快乐的生活</p>
+	</div>
+</div>
+<ul class="clearfix today_find">
+    ##for(var n = 0; n < obj3.length; n++){##
+	    <li>
+			<a href=""><img src="{{obj3[n].imgsrc}}" alt=""></a>
+			<div>
+				<p class="p_title">
+					<span>{{obj3[n].discount}}</span>{{obj3[n].p_title}}
+				</p>
+				<p class="p_p">
+					<span class="price1">￥<span>{{obj3[n].price1}}</span></span>
+					<del>￥{{obj3[n].price2}}</del>
+					<a href=""></a>
+				</p>
+			</div>
+		</li>
+    ##}##
+</ul>

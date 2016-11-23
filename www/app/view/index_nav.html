@@ -1,0 +1,10 @@
+##for(var i = 0;i< obj.length;i++){##
+	<li>
+		{{obj[i].title}}
+		<ul class="list_banner_menu_list clearfix">
+			##for(var j = 0 ; j < obj[i].detail.length ;j++){##
+				<li><a href="#">{{obj[i].detail[j]}}</a></li>
+				##}##
+		</ul>
+	</li>
+##}##

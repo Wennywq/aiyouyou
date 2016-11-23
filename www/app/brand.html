@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/headerAndFooter.css">
+    <link rel="stylesheet" href="css/brand.css">
+</head>
+
+<body>
+    <header class="f12" id="header">
+    </header>
+    <!-- /header -->
+    <!-- banner -->
+    <div class="brand_banner">
+    </div>
+    <!-- 页面的中间内容 -->
+    <!--滚动后固定在顶部的部分 -->
+    <div class="fixed-top">
+        <ul class="w1000">
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span class="active">全部</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span>个护美妆</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span>餐厨日用</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span>食品健康</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span>服装配饰</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span>布艺家纺</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span>家电数码</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="fixed_line">
+                </div>
+                <div class="fixed_text">
+                    <a href=""><span>母婴呵护</span></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="w1000 brand_box">
+        <div class="brand_title clearfix">
+            <h2 class="brand_title_left">品牌分类</h2>
+            <div class="brand_title_right">
+                <a href="" class="active">全部<span></span></a>
+                <a href="">个护美妆<span></span></a>
+                <a href="">餐厨日用<span></span></a>
+                <a href="">食品健康<span></span></a>
+                <a href="">服装配饰<span></span></a>
+                <a href="">布艺家纺<span></span></a>
+                <a href="">家电数码<span></span></a>
+                <a href="">母婴呵护<span></span></a>
+            </div>
+        </div>
+        <ul id="brand_list" class="clearfix">
+        </ul>
+    </div>
+    <!-- 页面底部 -->
+    <footer id="footer">
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src='bower_components/seajs/dist/sea.js'></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/sliphover/jquery.sliphover.js"></script>
+    <script>
+    seajs.config({
+        base: './'
+    });
+    seajs.use('js/brand.js', function(task) {
+        task.runImg();
+    });
+
+    $("#brand_list").sliphover({
+        fontColor: "pink",
+        fontSize: "30px",
+        duration: 400
+    });
+    </script>
+</body>
+
+</html>

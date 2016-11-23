@@ -1,0 +1,39 @@
+<div class="drive-main">
+    <!--第一部分  -->
+    ##for(i=0;i< 3;i++){##
+	<div class="main1" style="{{data.drive[i].bgimg}}">
+		<div class="main1-inner">
+			<div class="main1-head">
+				<img src="{{data.drive[i].headimg}}" alt="">
+				<a href="#">	
+				</a>
+			</div>
+			<div class="main-body">
+				<ul class="item clear ">
+				    ##for(j=0;j< 6;j++){##
+					<li>
+						<div class="img">
+							<a href="">
+							   <img src="{{data.drive[i].main1[j].img}}" alt="">
+                               <span class="mask">
+                               	￥<span>749</span>起
+                               </span>
+							</a>
+						</div>
+						<div class="text">
+							<h3><a href="">绿野自驾|11月5.6日蔚县民宿体验打树花-剪纸-飞狐峪</a></h3>
+							<p>
+								<span class="rest">休闲</span>
+								<span>11/12 北京 出发</span>
+								<span class="apply">报名中</span>
+							</p>
+						</div>
+					</li>
+					##}##
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	##}##
+</div>

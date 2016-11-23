@@ -1,0 +1,125 @@
+.list_banner{
+	height: 330px;
+	position: relative;
+	img{
+		height: 330px;
+	}
+	#list_banner_menu{
+		position: absolute;
+		width: 215px;
+		z-index: 2;
+		top: 0px;
+		bottom: 0px;
+		background: #C81623;
+		&>li{
+			height: 12.5%;
+			position: relative;
+			color: #fff;
+			padding: 0px 15px;
+			line-height: 40px;
+			/*&:hover>ul{
+						
+					}*/
+			&:hover{
+				background: #F7F7F7;
+				color:#C81623;
+				&>ul{
+					display:block;
+					background: #F7F7F7;
+				}
+			}
+			&>ul{
+				/*display: none;*/
+				position: absolute;
+				left: 215px;
+				top: 0px;
+				width: 215px;
+				background: #fff;
+				display: none;
+				li{
+					float: left;
+					padding-left: 15px;
+					a{
+						color: #000;
+						&:hover{
+							color:#C81623;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.list_main{
+	margin-top: 30px;
+	overflow: hidden;
+	img{
+		width:100%;
+		border:0 none;
+		display:block;
+	}
+	.list_title{
+	    border-bottom: 1px solid #4c4c4c;
+	    height: 50px;
+	    width: 100%;
+	    line-height: 50px;
+	    font-size: 26px;
+	    margin-bottom: 15px;
+	    color: #303030;
+	    padding-left:30px;
+	    background:url(../image/vedio_icon_list.png) no-repeat scroll -181px -183px;
+	}
+	#list_main_content{
+		li{
+			float: left;
+		    width: 283px;
+		    height: 334px;
+		    margin-right: 20px;
+		    margin-bottom: 15px;
+		    border: 1px solid #DBDBDB;
+		    background: #525252;
+		    &:nth-child(4n){
+			    margin-right: 0;
+		    }
+		    a{
+		    	width:100%;
+		    	height:283px;
+		    	display:block;
+		    }
+		    .img_intro{
+		    	padding:0 10px 10px;
+			    color: #FFF;
+		    	h1{
+		    		font-size: 16px;
+				    height: 22px;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    white-space: nowrap;
+				    padding-top:3px;
+		    	}
+		    	.p_price{
+		    		.p_price1{
+		    			font-size: 16px;
+		    			span{
+		    				font-family: arial;
+						    font-size: 18px;
+						    font-weight: bold;
+		    			}
+		    		}
+		    		.p_price2{
+		    			text-decoration: line-through;
+					    padding: 0 16px 0 6px;
+		    		}
+		    		.discount{
+	    			    background-color: #94193f;
+					    border-radius: 3px;
+					    display: inline-block;
+					    padding: 0 7px;
+					    margin-left: 20px;
+		    		}
+		    	}
+		    }
+		}
+	}
+}
